@@ -3,6 +3,14 @@ title: "Hello, Penguins!"
 format: html
 editor: visual
 author: Camille
+tags: 
+  - penguins
+backgroundcolor: gray
+table-of-contents: true
+comments: false
+execute: 
+  eval: true
+fontcolor: white
 ---
 
 ## Data

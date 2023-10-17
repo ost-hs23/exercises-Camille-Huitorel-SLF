@@ -1,4 +1,7 @@
 ---
+title: Markdown Course
+author: Camille
+table-of-contents: true
 format: html
 editor: source
 ---
@@ -10,3 +13,20 @@ editor: source
 3.  Add an image link to a web image you have chosen.
 
 4.  Use any markdown syntax that you can recall from the slides or refresh your memory from <https://quarto.org/docs/authoring/markdown-basics.html>.
+
+# Huge section
+
+## First subsection
+
+# Other section
+
+This image is the **SLF logo**
+
+![SLF](https://www.independentsnowboarding.com/wp-content/uploads/2018/10/slf-logo.png)
+
+## Diagram
+```{mermaid}
+flowchart LR
+  A[Open Sciences tools Lecture] --> B(Learning new tools)
+  B --> C[Ready to apply!]
+```
