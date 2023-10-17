@@ -2,6 +2,7 @@
 title: "Hello, Penguins!"
 format: html
 editor: visual
+author: Camille
 ---
 
 ## Data
@@ -9,8 +10,9 @@ editor: visual
 For this analysis we'll use the penguins dataset from the palmerpenguins R package.
 
 ```{r}
-#| label: load-packages
+
 #| message: false
+#| label: loqd-packages
 
 library(tidyverse)
 library(ggthemes)
