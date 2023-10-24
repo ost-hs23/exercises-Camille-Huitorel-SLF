@@ -38,6 +38,7 @@ The figure below is a scatterplot of species of penguins.
 #| fig-width: 5
 #| fig-asp: 0.618
 
+
 ggplot(data = penguins,
        mapping = aes(x = bill_length_mm, 
                      y = bill_depth_mm,

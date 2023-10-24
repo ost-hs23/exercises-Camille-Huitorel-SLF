@@ -1,0 +1,42 @@
+---
+title: "Camille Huitorel"
+format: html
+image: images/photo_linkedin.jpg
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Camille-Huitorel-SLF
+    - icon: linkedin
+      text: Linkedin
+      href: www.linkedin.com/in/camille-huitorel-461407210
+---
+
+PhD student at the avalanche research center WSL-SLF Davos and the University ETH Zurich, I'm working with a numerical coupling method named CFD-DEM ('Continuum Fluid Dynamics and Discrete Element Method") to decipher the influence of saturation degree and of pore pressure within bed sediment on the entrainment rate and flow mobility of Alpine Mass Movements.
+
+Recently graduated with two masters in geophysics, with a specialty in telluric natural risks from 'Institut Physique du Globe de Paris' in Paris, I have also a good background in the processing of seismic, geospatial or electrical, magnetic acquisition data, and so on.\
+\
+I am also able to develop advanced tools in Python: for visualization, data processing, for the development of models and simulation tools, for detection and classification thanks to the integration of machine learning models.
+
+## My Research
+
+## Education
+
+WSL-SLF Davos and ETH Zurich \| Doctorate \| May 2023 - *present*
+
+Institut Physique du Globe de Paris \| Applied Geophysics - Master Degree \| Sept 2021 - August 2022
+
+Institut Physique du Globe de Paris \| Natural Hazards (Geophysics) - Master Degree \| Sept 2019 - August 2021
+
+Université Rennes 1 \| Geosciences - Bachelor Degree \| Sept 2018 - August 2019
+
+## Experience
+
+EDF Paris-Saclay \| Master laboratory Intern \| April 2022 - Oct 2022
+
+BRGM Orléans \| Master laboratory Inter \| Mars 2021 - August 2021
+
+BRGM St-Denis Reunion Island \| Master laboratory Intern \| Feb 2020 - August 2020

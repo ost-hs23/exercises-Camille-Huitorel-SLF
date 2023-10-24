@@ -4,18 +4,30 @@ format: html
 editor: visual
 ---
 
-```{r}
-#| label: load-packages
+```{#| label: load-packages}
 #| message: false
 
 library(tidyverse)
 library(ggthemes)
+library(gt)
 library(palmerpenguins)
 ```
 
 1.  Create a 2 row x 2 column table, populate with a column for restaurant + column for cuisine. Then, cross reference it from text.
+| Restaurant | Cuisine    |
+|------------|------------|
+| 5 Chickens | 12 Chickens|
+
+
+: Chicken {#tbl-chicken}
+
+See @tbl-chicken.
 
 2.  Include the Quarto logo from the `images/` folder as a figure. Add a caption, id, and cross-reference to the figure.
+
+![Quarto logo](images/quarto-logo.png){#fig-quarto}
+
+This is illustrated well by @fig-quarto.
 
 3.  **Stretch goal:** Add a caption, label, and cross-reference to the figure generated from the code below.
 
@@ -23,6 +35,8 @@ library(palmerpenguins)
 #| warning: false
 #| fig-width: 5
 #| fig-asp: 0.618
+#| label: bill-dims-species
+#| fig-cap: "Plot"
 
 ggplot(data = penguins,
        mapping = aes(x = bill_length_mm, 
@@ -33,4 +47,7 @@ ggplot(data = penguins,
   scale_color_colorblind() +
   labs(x = "Bill length (mm)", y = "Bill depth (mm)") +
   theme_minimal()
+
 ```
+See this plot in @bill-dims-species
+
