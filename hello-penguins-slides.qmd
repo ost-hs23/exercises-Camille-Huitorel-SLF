@@ -1,7 +1,15 @@
 ---
 title: "Hello, Penguins!"
-format: html
+author: "Camille Huitorel"
+format: 
+  revealjs:
+    logo: images/quarto-logo.png
+    footer: "My Footer"
+    chalkboard: true
+  
 editor: visual
+editor_options: 
+  chunk_output_type: console
 ---
 
 ## Data
@@ -38,6 +46,9 @@ ggplot(data = penguins,
   labs(x = "Bill length (mm)", y = "Bill depth (mm)") +
   theme_minimal()
 ```
+
+::: notes
+:::
 
 ## Penguins
 

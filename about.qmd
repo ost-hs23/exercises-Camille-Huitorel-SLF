@@ -21,8 +21,6 @@ Recently graduated with two masters in geophysics, with a specialty in telluric 
 \
 I am also able to develop advanced tools in Python: for visualization, data processing, for the development of models and simulation tools, for detection and classification thanks to the integration of machine learning models.
 
-## My Research
-
 ## Education
 
 WSL-SLF Davos and ETH Zurich \| Doctorate \| May 2023 - *present*
